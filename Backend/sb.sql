@@ -1,4 +1,4 @@
--- Supabase Database Schema for Fixit Platform
+-- Supabase Database Schema for TotalFix27x7 Platform
 
 -- Enable UUID extension
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
@@ -391,7 +391,7 @@ ON CONFLICT DO NOTHING;
 INSERT INTO users (name, email, phone, password_hash, role)
 VALUES (
   'Platform Admin',
-  'admin@Fixit.local',
+  'admin@totalfix27x7.local',
   '9999999999',
   crypt('Admin@12345', gen_salt('bf')),
   'admin'

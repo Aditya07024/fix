@@ -191,7 +191,7 @@ const OnboardingPage: React.FC = () => {
             Complete your account
           </h1>
           <p className="text-sm text-gray-600 dark:text-gray-400 mb-lg">
-            Add the remaining Fixit profile details before entering the dashboard.
+            Add the remaining TotalFix27x7 profile details before entering the dashboard.
           </p>
 
           {error && (

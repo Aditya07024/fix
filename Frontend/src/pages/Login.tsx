@@ -66,11 +66,11 @@ const LoginPage: React.FC<LoginPageProps> = ({ adminOnly = false }) => {
           <div className="flex-col-center mb-2xl">
             <img
               src={logo}
-              alt="Fixit logo"
+              alt="TotalFix27x7 logo"
               className="w-16 h-16 rounded-2xl object-contain mb-md"
             />
             <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-50">
-              {adminOnly ? "Fixit Admin" : "Fixit"}
+              {adminOnly ? "TotalFix27x7 Admin" : "TotalFix27x7"}
             </h1>
             <p className="text-sm text-gray-600 dark:text-gray-400 mt-sm text-center">
               {adminOnly
@@ -148,7 +148,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ adminOnly = false }) => {
               <p className="text-xs text-gray-600 dark:text-gray-400 text-center">
                 {adminOnly
                   ? "Admins can only sign in here. New admin accounts are not self-created."
-                  : "After sign-up, Fixit will ask for any missing profile details before opening your dashboard."}
+                  : "After sign-up, TotalFix27x7 will ask for any missing profile details before opening your dashboard."}
               </p>
             </div>
           </Show>
@@ -163,8 +163,8 @@ const LoginPage: React.FC<LoginPageProps> = ({ adminOnly = false }) => {
                     </p>
                     <p className="text-xs text-green-700 dark:text-green-300 mt-xs">
                       {role
-                        ? "Use your Fixit dashboard or sign out from the account menu."
-                        : "Your Clerk session is active, but Fixit is still waiting for backend account sync."}
+                        ? "Use your TotalFix27x7 dashboard or sign out from the account menu."
+                        : "Your Clerk session is active, but TotalFix27x7 is still waiting for backend account sync."}
                     </p>
                   </div>
                   <UserButton />
@@ -183,7 +183,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ adminOnly = false }) => {
                 </Button>
               ) : (
                 <div className="rounded-lg border border-amber-200 bg-amber-50 px-md py-md text-sm text-amber-800 dark:border-amber-900 dark:bg-amber-950 dark:text-amber-200">
-                  Fixit could not finish loading your account yet. If this keeps happening, the backend or database is still unavailable.
+                  TotalFix27x7 could not finish loading your account yet. If this keeps happening, the backend or database is still unavailable.
                 </div>
               )}
             </div>
@@ -203,7 +203,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ adminOnly = false }) => {
                   </>
                 ) : (
                   <>
-                    Existing Fixit users keep their stored role. New Clerk
+                    Existing TotalFix27x7 users keep their stored role. New Clerk
                     sign-ups use the role selected above, while{" "}
                     <span className="font-semibold">admin</span> access is only
                     available from the dedicated admin access page.
@@ -224,7 +224,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ adminOnly = false }) => {
         </div>
 
         <p className="text-center text-white text-sm mt-lg">
-          © 2024 Fixit Platform. All rights reserved.
+          © 2024 TotalFix27x7 Platform. All rights reserved.
         </p>
       </div>
     </div>

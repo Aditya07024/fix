@@ -1,6 +1,6 @@
 import { NotificationApiItem, notificationsAPI } from "@/services/api";
 
-export const NOTIFICATION_EVENT_NAME = "fixit:notification-created";
+export const NOTIFICATION_EVENT_NAME = "totalfix27x7:notification-created";
 
 type RealtimeNotificationEvent = CustomEvent<NotificationApiItem>;
 
@@ -286,7 +286,7 @@ class RealtimeNotificationsService {
   private getPermissionPromptKey(userId?: string) {
     const resolvedUserId = userId || this.getStoredUserId();
     return resolvedUserId
-      ? `fixit-notification-permission-prompted:${resolvedUserId}`
+      ? `totalfix27x7-notification-permission-prompted:${resolvedUserId}`
       : null;
   }
 

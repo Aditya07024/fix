@@ -1,7 +1,7 @@
 {
-  "name": "Fixit-backend",
+  "name": "totalfix27x7-backend",
   "version": "1.0.0",
-  "description": "Express backend for multi-service Fixit platform",
+  "description": "Express backend for multi-service TotalFix27x7 platform",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {

@@ -19,7 +19,7 @@ export const FeaturesSection: React.FC = () => {
           className="text-center mb-16"
         >
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Why Choose Fixit?
+            Why Choose TotalFix27x7?
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             Experience the best home services platform with features designed

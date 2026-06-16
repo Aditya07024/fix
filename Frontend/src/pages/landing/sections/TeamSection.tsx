@@ -64,7 +64,7 @@ const EMPLOYEES: Employee[] = [
     rating: 4.5,
     skills: ["Electrician", "Wiring", "Panel Work", "AC Repair"],
     history: [
-      { title: "Technician — Fixit24hr", date: "2022 – Present", desc: "Handles electrical work and AC repair for residential clients in Chhata." },
+      { title: "Technician — TotalFix27x7", date: "2022 – Present", desc: "Handles electrical work and AC repair for residential clients in Chhata." },
     ],
     contact: { phone: "+91 9837635504", email: "premprakash.choudhary889@gmail.com" }
   },
@@ -77,7 +77,7 @@ const EMPLOYEES: Employee[] = [
     rating: 4.3,
     skills: ["AC Repair", "Split AC", "Gas Filling", "Cooling Systems"],
     history: [
-      { title: "Technician — Fixit24hr", date: "2021 – Present", desc: "Handles AC servicing, repair and installation in Chhata area." },
+      { title: "Technician — TotalFix27x7", date: "2021 – Present", desc: "Handles AC servicing, repair and installation in Chhata area." },
     ],
     contact: { phone: "+91 8126313896", email: "rambabuchhata@gmail.com" }
   },
@@ -90,7 +90,7 @@ const EMPLOYEES: Employee[] = [
     rating: 4.7,
     skills: ["Washing Machine", "Dry Cleaning", "Appliance Repair", "Motor Repair"],
     history: [
-      { title: "Technician — Fixit24hr", date: "2022 – Present", desc: "Washing machine and appliance repair across Kosi." },
+      { title: "Technician — TotalFix27x7", date: "2022 – Present", desc: "Washing machine and appliance repair across Kosi." },
     ],
     contact: { phone: "+91 8979791134", email: "ajeet@gmail.com" }
   },
@@ -103,7 +103,7 @@ const EMPLOYEES: Employee[] = [
     rating: 4.3,
     skills: ["Electrician", "Wiring", "MCB", "Fan Installation"],
     history: [
-      { title: "Technician — Fixit24hr", date: "2022 – Present", desc: "Electrical services for residential clients in Kosi." },
+      { title: "Technician — TotalFix27x7", date: "2022 – Present", desc: "Electrical services for residential clients in Kosi." },
     ],
     contact: { phone: "+91 7017904170", email: "satendrathakur507859@gmail.com" }
   },
@@ -132,7 +132,7 @@ export const TeamSection: React.FC = () => {
           <div>
             <div className="inline-flex items-center gap-2 bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-full px-3 py-1.5 mb-4">
               <div className="w-2 h-2 rounded-full bg-blue-500" />
-              <span className="text-xs text-gray-500 font-medium tracking-wide">Fixit24hr Team</span>
+              <span className="text-xs text-gray-500 font-medium tracking-wide">TotalFix27x7 Team</span>
             </div>
             <h2 className="text-5xl font-extrabold text-gray-900 dark:text-white leading-tight" style={{ fontFamily: "'Syne', sans-serif" }}>
               Meet our<br />

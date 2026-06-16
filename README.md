@@ -1,6 +1,6 @@
-# Multi-Service Fixit UI
+# Multi-Service TotalFix27x7 UI
 
-A production-ready, modern web application UI for a multi-service Fixit platform (similar to UrbanClap) with three complete user dashboards and a comprehensive design system.
+A production-ready, modern web application UI for a multi-service TotalFix27x7 platform (similar to UrbanClap) with three complete user dashboards and a comprehensive design system.
 
 ## 🎯 Features
 

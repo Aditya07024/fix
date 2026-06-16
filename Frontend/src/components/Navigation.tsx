@@ -298,7 +298,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           {logo || (
             <img
               src={logoImage}
-              alt="Fixit logo"
+              alt="TotalFix27x7 logo"
               className="h-10 w-auto object-contain"
             />
           )}

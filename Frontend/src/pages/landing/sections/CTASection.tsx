@@ -41,7 +41,7 @@ export const CTASection: React.FC = () => {
 
           {/* Description */}
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Join thousands of happy users who've already discovered Fixit. Book
+            Join thousands of happy users who've already discovered TotalFix27x7. Book
             your first service today and get exclusive welcome discounts!
           </p>
 

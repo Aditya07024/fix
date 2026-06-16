@@ -59,7 +59,7 @@ export const HeroSection: React.FC = () => {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary-100 dark:bg-primary-900/20 border border-primary-200 dark:border-primary-800 rounded-full">
               <span className="text-sm font-medium text-primary-700 dark:text-primary-400">
-                Welcome to Fixit
+                Welcome to TotalFix27x7
               </span>
             </div>
           </motion.div>

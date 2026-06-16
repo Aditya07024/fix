@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: fixit-frontend
+    name: totalfix27x7-frontend
     env: static
     buildCommand: npm run build
     publishPath: ./dist

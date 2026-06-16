@@ -1,6 +1,6 @@
-# Fixit Backend
+# TotalFix27x7 Backend
 
-Express.js backend for a multi-service Fixit platform with, JWT authentication, Razorpay integration, and role-based access control.
+Express.js backend for a multi-service TotalFix27x7 platform with, JWT authentication, Razorpay integration, and role-based access control.
 
 ## 📋 Features
 
@@ -177,8 +177,8 @@ CMD ["npm", "start"]
 ```
 
 ```bash
-docker build -t Fixit-api .
-docker run -p 5000:5000 Fixit-api
+docker build -t totalfix27x7-api .
+docker run -p 5000:5000 totalfix27x7-api
 ```
 
 ## 📚 Additional Resources

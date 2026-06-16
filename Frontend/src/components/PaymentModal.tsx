@@ -206,7 +206,7 @@ export default function PaymentModal({
       key: razorpayKey,
       amount: orderAmount,
       currency: currency || 'INR',
-      name: 'Fixit Services',
+      name: 'TotalFix27x7 Services',
       description: bookingDetails?.service_name || 'Service Payment',
       order_id: orderId,
       prefill: {

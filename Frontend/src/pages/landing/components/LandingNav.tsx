@@ -42,11 +42,11 @@ export const LandingNav: React.FC = () => {
           <Link to="/" className="flex items-center gap-2 group">
             <img
               src={logo}
-              alt="Fixit logo"
+              alt="TotalFix27x7 logo"
               className="w-10 h-10 rounded-lg object-contain group-hover:shadow-lg transition-shadow"
             />
             <span className="font-display font-bold text-xl text-gray-900 dark:text-white hidden sm:inline">
-              Fixit
+              TotalFix27x7
             </span>
           </Link>
 

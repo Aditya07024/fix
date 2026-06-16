@@ -41,7 +41,7 @@ export const FooterSection: React.FC = () => {
   ];
 
   const socialLinks = [
-    { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/fixit24hr?igsh=MXdwbzhhZXkxbzltOQ%3D%3D&utm_source=qr" },
+    { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/totalfix27x7?igsh=MXdwbzhhZXkxbzltOQ%3D%3D&utm_source=qr" },
   ];
 
   return (
@@ -59,11 +59,11 @@ export const FooterSection: React.FC = () => {
             <Link to="/" className="flex items-center gap-2 mb-6">
               <img
                 src={logo}
-                alt="Fixit logo"
+                alt="TotalFix27x7 logo"
                 className="w-10 h-10 rounded-lg object-contain"
               />
               <span className="font-display font-bold text-xl text-white">
-                Fixit
+                TotalFix27x7
               </span>
             </Link>
             <p className="text-gray-400 text-sm mb-6">
@@ -78,7 +78,7 @@ export const FooterSection: React.FC = () => {
               </div>
               <div className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-primary-500 flex-shrink-0 mt-0.5" />
-                <span>fixit@fixit24hr.in</span>
+                <span>totalfix27x7@totalfix27x7.in</span>
               </div>
               <div className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary-500 flex-shrink-0 mt-0.5" />
@@ -132,7 +132,7 @@ export const FooterSection: React.FC = () => {
             transition={{ duration: 0.5 }}
             viewport={{ once: true }}
           >
-            © {new Date().getFullYear()} Fixit. All rights reserved.
+            © {new Date().getFullYear()} TotalFix27x7. All rights reserved.
           </motion.p>
 
           {/* Social Links */}
